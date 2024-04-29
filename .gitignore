@@ -1,0 +1,33 @@
+# Nix build artifacts
+result
+result-*
+
+# Nix garbage collection roots
+gc-roots/
+
+# Nix store paths
+/nix/store/
+
+# Nix shell environment files
+.nix-shell
+.nix-shell-env
+
+# Nix-generated symlinks
+/bin
+/include
+/lib
+/share
+
+# Editor files
+*.swp
+*.swo
+*~
+.*.sw[a-z]
+.sw[a-z]
+
+# macOS files
+.DS_Store
+
+# Other generated files
+.direnv/
+
