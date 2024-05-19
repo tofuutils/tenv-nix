@@ -1,7 +1,7 @@
 <!-- BADGES -->
 ![maintenance status](https://img.shields.io/maintenance/no/2024.svg?style=for-the-badge)
 
-> [!DEPRECATED]
+> [!CAUTION]
 > ⛔️This repository is no longer supported because the tenv derivation has been merged into [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/te/tenv/package.nix).
 
 # tenv Nix
