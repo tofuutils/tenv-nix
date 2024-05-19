@@ -27,10 +27,10 @@ let
     '';
 
     meta = with lib; {
-      description = "tenv - Terraform/OpenTofu/Terragrunt version manager";
+      description = "OpenTofu, Terraform, Terragrunt and Atmos version manager, written in Go.";
       homepage = "https://github.com/tofuutils/tenv";
-      license = licenses.mit;
-      maintainers = with maintainers; [ maddinek ];
+      license = licenses.asl20;
+      maintainers = with maintainers; [ kvendingoldo ];
     };
 
     passthru.tests = {
