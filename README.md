@@ -1,3 +1,9 @@
+<!-- BADGES -->
+![maintenance status](https://img.shields.io/maintenance/no/2024.svg?style=for-the-badge)
+
+> [!DEPRECATED]
+> ⛔️This repository is no longer supported because the tenv derivation has been merged into [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/te/tenv/package.nix).
+
 # tenv Nix
 
 This project provides a Nix derivation for the [tenv](https://github.com/tofuutils/tenv) version manager, allowing you to easily install and use `tenv` within a Nix environment.
